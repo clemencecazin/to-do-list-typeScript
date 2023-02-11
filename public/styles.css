@@ -1,0 +1,92 @@
+body {
+    background-color: #eadcd9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #d0c7e2;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#content {
+    background-color: #c8eeea;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#box {
+    background-color: #d0c7e2;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    border: 20px solid #d0c7e2;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 150px;
+}
+
+#content form button {
+    background-color: #d0c7e2;
+    border: none;
+    color: white;
+    padding: 12px;
+}
+
+#content form input {
+    padding: 10px;
+    border: 2px solid #d0c7e2;
+}
+
+#content ul {
+    height: 100%;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    accent-color: #d0c7e2;
+    border: none;
+}
+
+input[type="checkbox"]:checked {
+    width: 40px;
+    height: 40px;
+    background-color: #add8d3;
+    color: white !important;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
